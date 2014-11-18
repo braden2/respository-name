@@ -38,6 +38,8 @@ def div(a, b):
 def expnt(a, b):
 	return a ** b;
 
+def molulo(a, b):
+	return a % b
 
 # -------------------------------------------------------- #
 
@@ -74,6 +76,8 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "**")
             print "Exponent: ", expnt(a, b)
+		elif (op == "%"):
+			print "modulo: ", modulo(a, b)
         else:
             print "Invalid operation..."
 
