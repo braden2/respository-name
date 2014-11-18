@@ -32,6 +32,11 @@ def mult(a, b):
 # b -- divisor
 def div(a, b):
     return a / b
+# Exponent function
+# a -- operator
+# b -- exponent
+def expnt(a, b):
+	return a ** b;
 
 
 # -------------------------------------------------------- #
@@ -67,6 +72,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+		elif (op == "**")
+			print "Exponent: ", expnt(a, b)
         else:
             print "Invalid operation..."
 
